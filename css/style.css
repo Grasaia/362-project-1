@@ -35,3 +35,23 @@ select {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
