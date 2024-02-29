@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto Mono", monospace;
+  font-style: normal;
     background-color: gray;
     color: #333;
     padding: 20px;
@@ -11,6 +12,8 @@ header {
 }
 
 main {
+    font-family: "Karla", sans-serif;
+  font-style: normal;
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 8px;
