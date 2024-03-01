@@ -1,7 +1,10 @@
 body {
+    background-image: url(https://wallpaperset.com/w/full/1/9/5/38686.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: "Roboto Mono", monospace;
   font-style: normal;
-    background-color: gray;
     color: #333;
     padding: 20px;
 }
