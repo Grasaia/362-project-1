@@ -44,7 +44,7 @@ select {
     border: 1px solid #ccc;
     box-sizing: border-box;
     background-color: black; /* Change background color to black */
-    color: purple; /* Change text color to purple */
+    color: rgb(209, 17, 209); /* Change text color to purple */
 }
 
 button {
