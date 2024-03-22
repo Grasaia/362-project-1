@@ -34,14 +34,32 @@ label {
     font-weight: bold;
 }
 
+/* Set background color of input fields to black */
 input[type="text"],
 input[type="email"],
 select {
     width: 100%;
     padding: 8px;
     border-radius: 4px;
-    border: 1px solid #111010;
+    border: 1px solid #ccc;
     box-sizing: border-box;
+    background-color: black; /* Change background color to black */
+    color: purple; /* Change text color to purple */
+}
+
+/* Change color of drop-down arrow */
+select {
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg fill='purple' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); /* Add custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 20px;
+}
+
+/* Change color of placeholder text */
+input::placeholder,
+select::placeholder {
+    color: purple; /* Change placeholder text color to purple */
 }
 
 button {
