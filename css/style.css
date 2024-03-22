@@ -17,10 +17,10 @@ header {
 main {
     font-family: "Karla", sans-serif;
   font-style: normal;
-    background-color: whitesmoke;
+    background-color: rgb(209, 17, 209);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(1, 1, 1, 0.1);
+    box-shadow: 0 2px 4px rgba(187, 19, 202, 0.1);
 }
 
 form {
