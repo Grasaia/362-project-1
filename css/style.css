@@ -21,6 +21,8 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(187, 19, 202, 0.1);
+    margin-top: auto; /* Move the main element towards the bottom */
+    margin-bottom: 20px; /* Add some margin at the bottom */
 }
 
 form {
@@ -63,18 +65,18 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    body{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
-@media screen and (min-width: 992px){
-    body{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+@media screen and (min-width: 992px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
