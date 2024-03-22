@@ -21,8 +21,8 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(187, 19, 202, 0.1);
-    margin-top: 50px; /* Move the main element towards the bottom */
-    margin-bottom: 20px; /* Add some margin at the bottom */
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 form {
